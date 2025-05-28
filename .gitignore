@@ -1,0 +1,94 @@
+# C++ build artifacts
+*.o
+*.obj
+*.exe
+*.out
+*.app
+TheMaze
+
+# Debug/Release directories
+debug/
+release/
+build/
+cmake-build-*/
+
+# Qt specific
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.jsc
+Makefile*
+!Makefile
+*.prl
+*.autosave
+*.qm
+.qmake.stash
+
+# CMake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+*.iml
+out/
+
+# Windows specific
+*.dll
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux specific
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Backup files
+*.bak
+*.backup
+*.swp
+*.swo
+*.tmp
+
+# Core dumps
+core
+core.*
+vgcore.*
+
+# Profiling
+*.gcda
+*.gcno
+*.gcov
+gmon.out
+*.prof
+
+# Documentation
+html/
+latex/
+doxygen_warnings.txt

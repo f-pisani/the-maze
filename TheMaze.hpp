@@ -7,7 +7,7 @@
 #include <algorithm>
 #include <SFML/Graphics.hpp>
 
-#include "../MazeStudio/CMaze.hpp"
+#include "CMaze.hpp"
 
 class TheMaze : public sf::RenderWindow
 {
